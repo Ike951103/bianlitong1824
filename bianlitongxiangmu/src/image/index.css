@@ -1,0 +1,111 @@
+.main_980{
+	width:980px;
+	margin:0px auto 10px;
+}
+	
+.fwq_sidebar_box{ 
+	width:561px;
+	height:315px;
+	float:left;
+	height:315px;
+	margin:3px 0px 0px 10px;
+	background:#fff;
+	overflow:hidden;
+	}
+.pic_560_205{
+	width:560px;
+	height:205px;
+	background:#fff;
+	overflow:hidden;
+	}
+	
+.hongliyitiaojie{
+	height:205px;
+	width:978px;
+	margin:5px auto;
+	border:1px solid #cfcfcf;
+	border-top:2px solid #f70;
+	overflow:hidden;
+	}
+
+
+#mini_promo{
+    width: 561px;
+    height: 107px;
+    background: #fff;
+    margin: 0px;
+}
+#mini_promo li{
+
+    float:left;
+}
+#mini_promo a img{
+	  width: 187px;
+}
+.floors{margin:10px auto; width:980px;	display:block;clear:both;}
+.box{ margin:20px auto 5px; }
+
+.DM-adcenter{ width:560px; float:left;}                                                                                                     
+.DM-adcenter li{ width:137px; height:219px; float:left; border-right:1px solid #E5E5E5; border-bottom:1px solid #E5E5E5; position:relative;} 
+.DM-adcenter .pimg{ width:133px; height:135px; margin:0px 2px; overflow:hidden;}        
+.DM-adcenter .pname{ width:120px; line-height:14px; margin:5px 10px; height:28px; overflow:hidden;}
+.DM-adcenter .pricediv{width:120px; height:10px;line-height:10px; margin:0 10px;}                       
+.DM-adcenter .pcprice{float:left; width:70px; height:10px;color:#930; font-weight:bold; font-size:14px;}                                                     
+.DM-adcenter .pmprice{float:right; width:50px; height:1-px;}                  
+.DM-adcenter .pimg img{ width:135px; height:135px;}
+
+.DM-right{ width:242px; float:right;}
+.DM-right .t3 {height:303px;}
+.DM-right .t3 li{border:1px solid #E5E5E5; position:relative; width:240px; height:100px; vertical-align: bottom; border-top:0px;}
+.DM-right .t3 .pimg{ width:100px; height:100px; float:left;}
+.DM-right .t3 .pimg img{ width:80px; height:80px; margin:10px;}
+.DM-right .t3 .pinfo{ width:100px; float:left; padding:20px 0px; line-height:14px;}
+.DM-right .t3 .pname{ margin-bottom:10px;}
+b{ color:#903;}
+.DM-right .t3 .DM-ico{ display:block; position:absolute; width:28px; height:31px;left:5px; top:0px; z-index:999;}
+
+
+#DM-box2{ width:980px; margin:0 auto;}	
+.DM-box2-tit{ height:29px; width:980px; line-height:25px; margin:10px 0px;}
+.DM-box2-tit .titName{ height:29px; float:left; width:230px;}
+.DM-box2-tit .titWd{ height:27px;  float:right; width:750px; border-bottom:1px solid #FDE5BD;}
+.DM-box2-tit .titWd span{ float:right; background:#FDE5BD; padding:2px 5px 0px;}
+.DM-box2-tit .titWd span a{ padding:0px 8px; color:#d96200; border-right:1px solid #ffb477;}
+
+.mowujian{float:left;width:157px;margin:0;}
+
+#DM-box2 .porRight{ width:815px; height:320px; float:right;}
+#DM-box2 .porRight li{ width:156px; height:160px; margin:0px 0px; position:relative; float:left; overflow:hidden;}
+#DM-box2 .porRight li div{background-color:#fff}
+
+#DM-box2 .porRight .pimg{ width:100px; height:100px; margin:0px 2px; overflow:hidden;}        
+#DM-box2 .porRight .pname{ width:120px; line-height:14px; margin:5px 10px; height:28px; overflow:hidden;}             
+#DM-box2 .porRight .pcprice{float:left; width:70px; height:10px;color:#930; font-weight:bold; font-size:14px;}                                                     
+#DM-box2 .porRight .pmprice{float:right; width:50px; height:1-px;}   
+
+.MD-tit{ height:26px; line-height:26px; width:980px; border-bottom:2px solid #fde5bd; padding:0px;}
+.MD-tit img{ height:26px;}
+.MD-tit .MD-name{ float:left;}
+.MD-tit .MD-tit-right{float:right; height:26px; line-height:26px;}
+.MD-tit span{ float:right;}
+.MD-tit span a{ border-right:1px solid #666;padding:0px 8px;height:26px; line-height:26px;}
+.MD-tit .addmore{ height:26px; width:61px; float:right; display:block;}
+.DM-adleft{ width:175px; float:left; height:440px; overflow:hidden;}
+.DM-adleft li a{ width:175px; display:block; height:220px; overflow:hidden;}
+
+.img_980{
+	width:980px;
+	margin:5px auto;
+	display:block;
+	clear:both;
+}
+
+.fwq_bottom_fnav{width:980px; margin:10px auto 50px; border-top:1px solid #eee;}
+.fwq_bottom_fnav ul li{ width:25%; float:left;}
+.fwq_bottom_fnav ul li ul li{ float:left; width:120px; height:22px; line-height:22px;}
+.fwq_bottom_fnav ul li img{ float:left; margin:10px 0px;}	
+	
+.few-footer{ width:980px; margin:10px auto 30px; border-top:2px solid #ff6b1d; padding-top:15px;}
+.few-footer .few-foot-left{ float:left; width:70%;}
+.few-footer .few-foot-left p{ line-height:22px; height:22px;}
+.few-footer .few-foot-right{ float:right; width:30%;}	

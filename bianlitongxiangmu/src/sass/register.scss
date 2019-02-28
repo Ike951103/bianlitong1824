@@ -1,0 +1,271 @@
+body,p,ul,img,html,h2,ol{
+	margin:0;
+	padding:0; 
+}
+.clear{clear:both}
+
+//头
+.header{
+	width : 100%;
+	.header1{
+		width : 980px;
+		margin : 0 auto;
+	}
+}
+
+//logo
+.logo{
+	width : 100%;
+	height : 80px;
+	.logo1{
+		width : 980px;
+		height : 80px;
+		margin : 0 auto;
+		.gif{
+			width : 187px;
+			height : 70px;
+			float : left;
+			margin: 10px 0px 0px 38px;
+			background : red;
+		}
+		.gif1{
+			float : right;
+			margin: 8px 10px 0px 0px;
+		}
+		.logo2{
+			    height: 25px;
+				display: inline;
+				width: 80px;
+				float: right;
+				margin: 10px 10px 0px 0px;
+				color: #666;
+				text-align: right;
+			ul{
+				width : 80px;
+				float : right;
+				li{
+					width : 80px;
+					list-style: none;
+					font-size : 12px;
+					
+				}
+			}
+	}
+	.logo3{
+		    float: right;
+			width: 350px;
+			text-align: right;
+			font-size : 12px;
+			margin-top : 40px;
+			color : #666;
+			a{
+				color : #666;
+				text-decoration: none;
+			}
+	}
+}
+}
+
+//bor
+.bor{
+	width : 100%;
+	.bor1{
+		width : 980px;
+		height : 38px;
+		margin : 0 auto;
+		border : 1px solid gray;
+		border-top : 1px solid white;
+	}
+}
+
+
+//常见问题
+.faq{
+	width : 100%;
+	//height : 1000px;
+	   .faq1{
+		   width : 980px;
+		   //height : 1000px;
+		   margin : 0 auto;
+			//background : red;
+			
+			
+		   .faq1_top{
+					width : 200px;
+					height : 26px;
+					font-size : 14px;
+					padding: 0 0 0 20px;
+					color: #0f7c23;
+					float: right;
+					margin-top : 30px;
+					//background : url(../image/title.gif) no-repeat;
+					b{
+						margin-left : 35px;
+					}
+					
+					ul{
+						width : 175px;
+						float: right;
+						margin-top : 10px;
+						li{
+							width : 175px;
+							height : 16px;
+							padding: 0 0 0 10px;
+							color: #0d298d;
+							font-size : 12px;
+							
+						}
+					}
+		   }
+		   
+		.register{
+			    padding: 10px 20px 0 20px;
+				font-size: 1.1em;
+				color: #0d298d;
+		}	   
+		.input{
+			width : 722px;
+			height :308px;
+			//background : pink;
+			margin-left : 60px;
+			margin-top : 60px;
+			.input1{
+				width : 722px;
+				height : 22px;
+				padding: 10px 0;
+				margin-left : 30px;
+				color : gray;
+				font-size : 12px;
+				input{
+					width : 200px;
+				}
+			}
+			.input2{
+				width : 722px;
+				height : 22px;
+				padding: 10px 0;
+				margin-left : 30px;
+				color : gray;
+				font-size : 12px;
+				input{
+					width : 200px;
+				}
+			}
+			.input3{
+				color : gray;
+				font-size : 12px;
+				text-indent: 8px;
+				textarea{
+				width : 493px;
+				height : 83px;
+				color : gray;
+				font-size : 12px;
+				margin-top : 15px;
+			}
+			}
+			.input4{
+				color : gray;
+				font-size : 14px;
+				margin-left : 65px;
+				margin-top : 30px;
+			}
+			.aaa{
+				width : 88px;
+				height : 27px;
+				float : left;
+				border-radius: 40px;
+				display : block; 
+				text-align : center;
+				//line-height : 27px;
+				text-decoration: none;
+				font-size : 13px;
+				color : white;
+				background :#206e22 url(../image/yuan.jpg) no-repeat 8px 5px;
+				margin-left : 70px;
+				margin-top : 20px;
+			}
+			.bbb{
+				width : 88px;
+				height : 27px;
+				float :left;
+				border-radius: 40px;
+				display : block; 
+				text-align : center;
+				line-height : 27px;
+				text-decoration: none;
+				font-size : 13px;
+				color : white;
+				background :#1f46a1 url(../image/yuan1.jpg) no-repeat 10px 5px;
+				margin-left : 20px;
+				margin-top : 20px;
+			}
+		}   
+			
+	   }
+	 
+}
+
+
+//倒数第二行
+.houmian{
+	width : 100%;
+	height : 176px;
+	//background : black;
+	.houmian_top_center{
+		width : 980px;
+		height : 108px;
+		//background : yellow;
+		margin: 10px auto 50px;
+		ul{
+			li{
+				width : 25%;
+				list-style: none;
+				float : left;
+				img{
+					margin : 10px 0px;
+				}
+				ul{
+					li{
+						float: left;
+						width: 120px;
+						height: 22px;
+						line-height: 22px;
+						a{
+							font-size: 12px;
+							color: #666;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	.houmian_buttom_center{
+		width : 980px;
+		//background : red;
+		//height : 20px;
+		margin : 0 auto;
+		border-top : 2px solid orange;
+		
+		.houmian_buttom_center_left{
+			width : 686px;
+			height : 79px;
+			//background : pink;
+			float : left;
+			padding-top : 20px;
+			p{
+				height : 22px;
+				line-height : 22px;
+				font-size: 12px;
+				color: #666;
+			}
+		}
+		.houmian_buttom_center_right{
+			width : 30%;
+			//background : green;
+			float : right;
+			padding-top : 20px;
+		}
+	}
+}

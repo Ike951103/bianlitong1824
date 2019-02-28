@@ -1,0 +1,192 @@
+*{margin:0;padding:0;list-style-type:none;}
+*{font-size:12px; font-family:"ËÎÌו"; color:#666; padding:0px; margin:0px;}
+img{border:0; padding:0px; margin:0px;}
+a{border:0;text-decoration:none;}
+ul,li{list-style:none;}
+input, select, textarea {
+    font-size: 100%;
+    outline:none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+.clearfix{zoom:1;}
+
+.wrap{
+  width: 980px;
+	margin:0px auto;
+}
+
+.foo{
+	padding:1px;
+  background-color:;
+}
+.foo a{
+	cursor:hand;
+}
+.foo a:hover{
+	text-decoration:underline;
+}
+.foo_hover{
+	padding:1px;
+	background-color:#ff6b1d;
+	cursor:hand;
+}
+.foo>div{
+	background-color:#fff;
+	width:100%; height:100%;
+}
+.hd_topbar {
+    background:#FAFAFA;
+    border-bottom: 1px solid #DBDBDB;
+    height: 25px;
+    line-height: 21px;
+    padding-top: 3px;
+		width:100%;
+}
+
+.hd_topbar_left{
+    float: left;
+    height: 21px;
+	}
+.hd_topbar_right{
+    float: right;
+	}
+.hd_topbar_left a{
+	color:#ff0000;
+	margin:0 5px;
+	}
+.hd_topbar_left a:hover{
+	color:#F90;
+	}
+.hd_topbar_right a{
+	color:#333;
+	padding-left:9px;
+	background:url(/images/fwq/ico_org_3.jpg) no-repeat left;
+	margin:0px 8px;
+	}
+.hd_top{
+	width:980px;
+	height:76px;
+	margin:2px auto;	
+}
+
+.hd_top_logo{
+	float:left;
+	width:250px;
+	}
+.hd_top_search{
+	float:left;
+	margin-left:40px;
+	color:#999;
+	width:425px;
+	overflow:hidden;
+	height:75px;
+	}
+.hd_top_search a{
+	color:#999;
+	padding:0px 2px;
+}
+.hd_top_search .sty_org{
+	color:#ff6b1d;
+}
+.hd_top_search .hd_top_search_wrap {
+  background:#FFFFFF;
+  border: 2px solid #fe6b1d;
+	width:420px;
+	height:28px;
+	margin:15px 0px 5px;
+}
+
+.hd_top_search input {
+    background:url(/images/fwq/images/search_03.jpg) no-repeat left center;
+    border: 0 none;
+    color: #999;
+    float: left;
+    height: 28px;
+		line-height:28px;
+    outline: medium none;
+    padding-left: 32px;
+    padding-right: 6px;
+    position: relative;
+    vertical-align: middle;
+    width: 312px;
+    z-index: 1;
+}
+
+.hd_top_search button{
+    background:#fe6b1d;
+    border: 0 none;
+    color: #FFF;
+    cursor: pointer;
+    float: left;
+    font-family: "Microsoft YaHei";
+	  font-weight:bold;
+    font-size: 16px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    vertical-align: middle;
+    width: 70px;
+	  overflow:hidden;
+}
+.hd_top_ad{
+	float:right;
+	margin:3px 10px 0px 0px;
+}
+
+
+.hd_nav{
+	margin:0px auto;
+	width:980px;
+	height:35px;
+	background:#fe6b1d;
+}
+.hd_nav a,.hd_nav a:hover{
+	color:#fff;
+	font-family:"Microsoft YaHei";
+	font-size:14px;
+	font-weight:bold;
+}
+.hd_nav_left{
+	width:216px;
+	float:left;
+}
+.hd_nav_left a{
+	padding-left:30px;
+	width:156px;
+	line-height:34px;
+	height:35px;
+	display:block;
+	background:url(/images/fwq/ico_wht.jpg) no-repeat right center;
+}
+.hd_nav_right{
+	float:right;
+	width:764px;
+}
+.hd_nav_right li{
+	height:34px;
+	line-height:34px;
+	float:left;
+	border-top:1px solid #FE6B1D;
+	}
+.hd_nav_right li a{
+	height:34px;
+	line-height:34px;
+	padding:0px 16px;
+	border-right:1px solid #d45d0b;
+	border-left:1px solid #ff8f1f;
+	}
+.hd_nav_right li .no_left{
+	border-left:1px solid #FE6B1D;
+}
+.hd_nav_right li .no_right{
+	border-right:1px solid #FE6B1D;
+}
+
+	

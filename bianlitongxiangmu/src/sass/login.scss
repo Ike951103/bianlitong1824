@@ -1,0 +1,200 @@
+body,p,ul,img,html,h2,ol{
+	margin:0;
+	padding:0; 
+}
+.clear{clear:both}
+
+body{
+	background: #C0DEFF url(../images/bg.jpg) no-repeat center top;
+}
+.logo{
+	width : 100%;
+	height : 50px;
+	padding-top : 43px;
+	.logo1{
+		width : 750px;
+		height : 50px;
+		margin : 0 auto;
+		//background : red;
+	}
+	
+}
+
+.login{
+	width : 100%;
+	height : 400px;
+	margin-top : 10px;
+	.login1{
+		width : 780px;
+		height : 400px;
+		background :white;
+		margin : 0 auto;
+		border-radius: 17px;
+		border : 1px solid skyblue;
+		.login1_left{
+			width : 450px;
+			height : 273px;
+			//background : orange;
+			margin  : 10px 35px;
+			float : left;
+			h2{
+				    padding: 20px 0;
+					font-size: 18px;
+					text-align: center;
+			}
+			ul{
+				width : 450px;
+				height : 117px;
+				margin : 0 auto;
+				//background : pink;
+				padding-bottom : 24px;
+				border-bottom : 1px solid #D6D6D6;
+				li{
+					width : 440px;
+					height : 24px;
+					padding : 5px 5px;
+					//background : green;
+					font-size : 14px;
+					color : black;
+					list-style:none;
+					input{
+						width : 222px;
+						height : 19px;
+						padding : 3px 0 0 4px;
+					}
+					a{
+						font-size : 12px;
+						color : blue;
+						text-decoration: none;
+					}
+				}
+				
+			}
+			
+			.login1_left_bottom{
+				width : 250px;
+				height : 30px;
+				padding : 24px 0 0 200px;
+				//background : skyblue;
+				#login{
+					
+					width : 80px;
+					height : 30px;
+					background : orange;
+					border-radius: 6px;
+					color: #FFF;
+					font-size: 16px;
+				
+				}
+				
+			}
+		}
+		.login1_right{
+			width : 240px;
+			height : 336px;
+			background : #fffae7;
+			float : right;
+			border-radius: 10px;
+			border : 1px solid #F6E796;
+			margin : 10px 10px 0px 0px;
+			h3{
+				padding: 25px 0 10px 0;
+				color: #DA6500;
+				font-size: 16px;
+				font-weight: bold;
+				text-align: center;
+			}
+			p{
+				width : 188px;
+				height : 144px;
+				padding : 0 25px;
+				line-height: 2em;
+				font-size : 12px;
+			}
+			.login1_right_bottom{
+				width : 178px;
+				height : 25px;
+				border-radius: 5px;
+				padding : 20px 0px 40px 60px;
+				a{
+					font-size : 12px;
+					color: #413F40;
+					text-decoration: none;
+					width : 105px;
+					height : 25px;
+					background :#eaeaea url(../image/111.jpg) no-repeat 88px 7px;
+					display : block;
+					line-height : 25px;
+					text-indent : 10px;
+					border-radius: 4px;
+					border : 1px solid gray;
+				}
+			}
+		}
+	}
+}
+
+
+//倒数第二行
+.houmian{
+	width : 100%;
+	height : 176px;
+	//background : black;
+	.houmian_top_center{
+		width : 980px;
+		height : 108px;
+		//background : yellow;
+		margin: 10px auto 50px;
+		ul{
+			li{
+				width : 25%;
+				list-style: none;
+				float : left;
+				img{
+					margin : 10px 0px;
+				}
+				ul{
+					li{
+						float: left;
+						width: 120px;
+						height: 22px;
+						line-height: 22px;
+						a{
+							font-size: 12px;
+							color: #666;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	.houmian_buttom_center{
+		width : 980px;
+		//background : red;
+		//height : 20px;
+		margin : 0 auto;
+		border-top : 2px solid orange;
+		
+		.houmian_buttom_center_left{
+			width : 686px;
+			height : 79px;
+			//background : pink;
+			float : left;
+			padding-top : 20px;
+			p{
+				height : 22px;
+				line-height : 22px;
+				font-size: 12px;
+				color: #666;
+			}
+		}
+		.houmian_buttom_center_right{
+			width : 30%;
+			//background : green;
+			float : right;
+			padding-top : 20px;
+		}
+	}
+}

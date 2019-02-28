@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* sw_categorys_nav */
+/*
+.sw_categorys_nav{position:relative;width:100%;height:40px;background:#8f0100;border-top:1px solid #790100;border-bottom:1px solid #790100;box-shadow:0px 1px 3px #000000;z-index:1000;}
+#cate_container{width:960px; margin:0 auto;}
+
+#cate_container .allcategorys{float:left;height:40px;width:160px;position:relative;}
+#cate_container .title-item-hd a{height:40px;line-height:40px;font-family:'微软雅黑';text-indent:20px;font-weight:bold;display:block;text-decoration:none;color:#fff;background:#a21c1d;}
+#cate_container .title-item-hd a .icon{position:absolute;display:block;width:35px;height:20px;top:11px;right:10px;background:url("/plugin/tmallslider/sw_categorys_nav.jpg");overflow:hidden;background-position:-5px -10px;}
+
+#cate_container.cate_container_shrink .title-item-hd a{color:#fff;background:#a21c1d;}
+#cate_container.cate_container_shrink .title-item-hd a .icon{background-position:-5px -10px;}
+#cate_container.cate_container_extd .title-item-hd a{color:#a21c1d;background:#ededed;box-shadow:1px 0 2px #333333;border-left:1px solid #eeeeee;}
+#cate_container.cate_container_extd .title-item-hd a .icon{background-position:-5px -50px;}
+
+/*
+.cate_container_shrink .allcategorys .title-item-hd a{height:40px;line-height:40px;font-family:'微软雅黑';text-indent:20px;font-weight:bold;color:#fff;display:block;text-decoration:none;background:#a21c1d;}
+.cate_container_shrink .allcategorys .title-item-hd a .icon{position:absolute;display:block;width:35px;height:20px;top:11px;right:10px;background:url("/plugin/tmallslider/sw_categorys_nav.jpg");overflow:hidden;background-position:-5px -10px;}
+.cate_container_extd .allcategorys .title-item-hd a{height:40px;line-height:40px;font-family:'微软雅黑';text-indent:20px;font-weight:bold;display:block;text-decoration:none;color:#a21c1d;background:#ededed;box-shadow:1px 0 2px #333333;border-left:1px solid #eeeeee;}
+.cate_container_extd .allcategorys .title-item-hd a .icon{position:absolute;display:block;width:35px;height:20px;top:11px;right:10px;background:url("/plugin/tmallslider/sw_categorys_nav.jpg");overflow:hidden;background-position:-5px -50px;}
+
+.cate_container_extd .allcategorys .sublist{position:absolute;width:960px;z-index:999;background:#ededed;border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;border-bottom:1px solid #eeeeee;padding:20px 0 0 20px;}
+.cate_container_shrink .allcategorys .sublist{position:absolute;width:960px;z-index:999;background:#ededed;border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;border-bottom:1px solid #eeeeee;padding:20px 0 0 20px;display:none;}
+
+#cate_container .allcategorys .sublist li{float:left;width:168px;padding-right:24px;padding-bottom:24px;}
+#cate_container .allcategorys .sublist li h3.mcate-item-hd{font-family:'微软雅黑';padding-left:2px;font-size:14px;height:26px;line-height:26px;border-bottom:1px dashed #666666;}
+#cate_container .allcategorys .sublist li p.mcate-item-bd{padding-left:2px;}
+#cate_container .allcategorys .sublist li p.mcate-item-bd a{height:26px;line-height:26px;margin-right:5px;font-size:12px;color:#666666;text-decoration:none;display:inline-block;}
+#cate_container .allcategorys .sublist li p.mcate-item-bd a:hover{color:#6c5143;text-decoration:underline;}
+*/
+
+.sw_categorys_nav{position:relative;width:100%;height:40px;box-shadows:0px 1px 3px #000000;z-index:1000;}
+
+.cate_container{width:216px;height:34px; float:left;background:#fe6b1d; margin:0;border-top:opx solid #790100;_border-bottom:1px solid #790100;}
+
+.cate_container{clear:both;}
+
+.allcategorys{z-index:11;position:relative;float:left;height:34px;width:216px;}
+.allcategorys h1 a{font:14px Arial,Lucida,Verdana,Helvetica,sans-serif;line-height:34px;font-family:'微软雅黑';text-indent:20px;font-weight:bold;display:block;text-decoration:none;color:#fff;background:#fe6b1d;_background:#a21c1d;}
+.allcategorys h1 a .icon{position:absolute;display:block;width:35px;height:20px;top:11px;right:10px;_background:url("/plugin/cateslider/sw_categorys_nav.jpg");overflow:hidden;background-position:-5px -10px;}
+.light h1 a .icon{background-position:-5px -50px;}
+.light h1 a{color:#a21c1d;_background:#ededed;_box-shadow:1px 0 2px #333333;border-left:1px solid #eeeeee;}
+
+.allcategorys{clear:both;}
+
+.categorys {position:relative;background-color: #fff;border: 1px solid #d7d7d7; border-top: 0px solid #d7d7d7; width:216px; height:318px;float:left; padding: 0px; margin: 0 0 5px 0; }
+.allcategorys .categorys{display:none;}
+.light .categorys{display:block;}
+.categorys .kind{z-index:999;width:190px;border-bottom:1px solid #f4f0f1; padding: 0px 5px 0px 8px; margin: 0 ;background:url("/plugin/cateslider/jiantou.jpg") no-repeat right center;}
+.categorys .hover{}
+.categorys .kind a:hover{}
+
+.categorys h2{position:relative; z-index:1;cursor: pointer;display:block; width:180px; height:35px; margin:0;line-height:35px;border:1px #fff solid;border-right:0px #d7d7d7 solid;}
+.categorys .hover h2{z-index:1001;border:1px #fb5008 solid;border-right:1px #fff solid;}
+
+
+.categorys h2 a{font:14px Arial,Lucida,Verdana,Helvetica,sans-serif;padding-left:5px; color:#000; font-weight:normal; height:35px; line-height:35px; }
+.categorys b{
+	position:absolute;display:block;
+	height:35px; width:1px;overflow:hidden;left:158px;top:0;margin:1px 0px 0px 0px; background:#fff; z-index:1001;}
+.categorys .hover b{display:block;}
+
+.categorys ul{z-index:998;display:none; position:absolute; width:580px; height:316;left:189px; top:0px;
+	float:left;
+	margin:0px 0 0 0;border:1px #fb5008 solid; min-height:316px;_height:316px;background:#FFF; }
+.categorys .hover ul{display:block;border:1px #fb5008 solid;}
+.categorys ul li{ height:100%; border-bottom: 1px dotted #ccc;  margin: 0 20px;padding: 5px 0;
+	float: left; 
+	display: inline;}
+.categorys ul li h3 {width:80px; margin:5px 5px 5px 0px; line-height: 14px; 
+	float:left; 
+	display:inline;}
+.categorys ul li h3 a{font-size:13px;color: #BF0000;font-weight: bold; margin: 5px 0}
+.categorys ul li p{ width:300px; height:100%; margin:5px 0; 
+	float:left; 
+	padding-left:5px; }
+.categorys ul li p a{ border-right: 1px solid #F1E3E3; color: #545454;line-height: 14px; padding: 0 6px;white-space:nowrap;font-size: 12px;
+    font-weight: normal;}
+.categorys ul li p a.last{border-right: 0px;}
+    
